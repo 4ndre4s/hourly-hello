@@ -1,7 +1,7 @@
 {
   "name": "hourly-hello",
   "version": "1.0.0",
-  "description": "",
+  "description": "Make your users' experience more engaging and personalized with dynamic greetings based on the time of day!",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
