@@ -1,11 +1,13 @@
+import { t } from './i18n.service';
+
 export function greet(currentDate?: Date): string {
     const internalDate = currentDate ?? new Date();
     const currentHour = internalDate.getHours();
     if (currentHour >= 0 && currentHour <= 11) {
-        return "Good morning";
+        return t('greetings.goodMorning');
     }
     if (currentHour >= 12 && currentHour <= 16) {
-        return "Hello";
+        return t('greetings.hello');
     }
-    return "Good evening";
+    return t('greetings.goodEvening');
 }
