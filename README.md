@@ -13,7 +13,7 @@ Make your users' experience more engaging and personalized with dynamic greeting
 You can install HourlyHello via npm:
 
 ```bash
-npm install time-greetings
+npm install hourly-hello
 ```
 
 ## Usage
