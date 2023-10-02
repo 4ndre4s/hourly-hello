@@ -20,7 +20,7 @@ npm install time-greetings
 Here's how you can use HourlyHello in your JavaScript project:
 
 ```javascript
-const { greet } = require('time-greetings');
+const { greet } = require('hourly-hello');
 
 const currentDate = new Date();
 const greeting = greet(currentDate);
