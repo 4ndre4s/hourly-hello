@@ -1,12 +1,14 @@
 {
   "name": "hourly-hello",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Make your users' experience more engaging and personalized with dynamic greetings based on the time of day!",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "format": "prettier 'src/**/*.ts' --write"
+    "format": "prettier 'src/**/*.ts' --write",
+    "prepublish": "npm run build",
+    "publish": "npm publish"
   },
   "keywords": [],
   "author": "Andreas Partsch",

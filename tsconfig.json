@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
+    "declaration": true,
     "declarationMap": true,
     "outDir": "./dist",
     "removeComments": true,
@@ -12,5 +13,9 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true
   },
-  "exclude": ["./node_modules"]
+  "exclude": [
+    "./node_modules",
+    "**/*.spec.ts",
+    "dist/**/*"
+  ]
 }
