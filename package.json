@@ -1,6 +1,6 @@
 {
   "name": "hourly-hello",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Make your users' experience more engaging and personalized with dynamic greetings based on the time of day!",
   "main": "dist/index.js",
   "scripts": {
