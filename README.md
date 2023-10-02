@@ -1,4 +1,6 @@
-# HourlyHello 🕒
+# Hourly Hello 🕒
+
+⚠️ under construction - API will change in the future 🏗️
 
 Make your users' experience more engaging and personalized with dynamic greetings based on the time of day! 🌟
 
