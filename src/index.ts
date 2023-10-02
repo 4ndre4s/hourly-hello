@@ -1,5 +1,3 @@
-import * as greetingService from './lib/greeting.service';
-import * as i18nService from './lib/i18n.service';
-
-export const greet = greetingService.greet;
-export const setLanguage = i18nService.setLanguage;
+export { greet } from './lib/greeting.service';
+export { setLanguage } from './lib/i18n.service';
+export type { Language } from './shared.types';
