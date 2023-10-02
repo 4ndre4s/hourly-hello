@@ -12,6 +12,15 @@ i18next.init({
                     goodEvening: 'Good evening'
                 }
             }
+        },
+        de: {
+            translation: {
+                greetings: {
+                    goodMorning: 'Guten Morgen',
+                    hello: 'Hallo',
+                    goodEvening: 'Guten Abend'
+                }
+            }
         }
     }
 });
