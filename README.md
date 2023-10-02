@@ -20,10 +20,11 @@ npm install time-greetings
 Here's how you can use TimeGreetings in your JavaScript project:
 
 ```javascript
-const { greetUser } = require('time-greetings');
+const { greet } = require('time-greetings');
 
-const greeting = greetUser();
-console.log(greeting); // Outputs a greeting based on the current time
+const currentDate = new Date();
+const greeting = greet(currentDate);
+console.log(greeting); // output: Good morning!
 ```
 
 ## Examples

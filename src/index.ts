@@ -1,4 +1,4 @@
-export function greetings(currentDate?: Date): string {
+export function greet(currentDate?: Date): string {
   const internalDate = currentDate ?? new Date();
   const currentHour = internalDate.getHours();
   if (currentHour >= 0 && currentHour <= 11) {
