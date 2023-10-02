@@ -10,14 +10,14 @@ Make your users' experience more engaging and personalized with dynamic greeting
 
 ## Installation
 
-You can install TimeGreetings via npm:
+You can install HourlyHello via npm:
 
 ```bash
 npm install time-greetings
 ```
 
 ## Usage
-Here's how you can use TimeGreetings in your JavaScript project:
+Here's how you can use HourlyHello in your JavaScript project:
 
 ```javascript
 const { greet } = require('time-greetings');
