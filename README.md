@@ -24,7 +24,7 @@ const { greet } = require('hourly-hello');
 
 const currentDate = new Date();
 const greeting = greet(currentDate);
-console.log(greeting); // output: Good morning!
+console.log(greeting); // output: Good morning
 ```
 
 ## Examples
