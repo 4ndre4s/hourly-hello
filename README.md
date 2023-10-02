@@ -34,7 +34,7 @@ Here are some examples of greetings you might receive:
 - Good evening! 🌆
 
 ## Issues
-If you encounter any issues with the library or have suggestions for improvements, please open an issue on our Issue Tracker.
+If you encounter any issues with the library or have suggestions for improvements, please [open an issue](https://github.com/4ndre4s/hourly-hello/issues) on our Issue Tracker.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/4ndre4s/hourly-hello/blob/master/LICENSE) file for details.
