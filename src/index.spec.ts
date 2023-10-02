@@ -1,4 +1,4 @@
-import { greet } from './index';
+import { configure, greet } from './index';
 
 describe('index.ts', () => {
   describe('.greet', () => {
@@ -20,4 +20,19 @@ describe('index.ts', () => {
       expect(result).toEqual('Good evening');
     });
   });
+
+  describe('.configure', () => {
+    it('should use the provided configuration', () => {
+      configure({
+        messages: {
+          morning: 'Good morning, dude!',
+          afternoon: 'Good afternoon, dude!',
+          evening: 'Good evening, dude!'
+        }
+      })
+      const currentDate = new Date(2021, 0, 1, 10, 0, 0);
+      const result = greet(currentDate);
+      expect(result).toEqual('Good morning, dude!');
+    })
+  })
 });
